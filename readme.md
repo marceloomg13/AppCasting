@@ -5,7 +5,7 @@ propuesta te lo agradecería.
 
 En este ejemplo uso Retrofit sobre un modelo llamado Quote que se compone de un json de citas de autores con el formato 
 ```kotlin 
-quote:String author:String
+quote:String, author:String
 ```
 Una MainActivity en el que hacemos uso de observers, y una barra de carga que nos indica que esta recogiendo la informacion de internet 
 Un ViewModel en el que recogemos los datos mediante corrutinas y de los dos casos de uso creados en el package domain
